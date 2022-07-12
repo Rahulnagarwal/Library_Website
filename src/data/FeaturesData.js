@@ -38,7 +38,7 @@ export const featuresData = [
 	{
 		name: 'Others',
 		description:
-			'All time electricity, RO Water, Bhaskar and The Hindu(digitally).',
+			'All time electricity, RO Water, Dainik Bhaskar and The Hindu(digitally).',
 		icon: iconStyle(FcPlus),
 		imgClass: 'six',
 	},
