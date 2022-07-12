@@ -6,7 +6,7 @@ const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const featuresData = [
 	{
-		name: 'Specifically for girls',
+		name: 'Only for girls',
 		description: 'We offer the best safe and secure environments for girls.',
 		icon: iconStyle(FcBusinesswoman),
 		imgClass: 'one',

@@ -17,7 +17,6 @@ const Home = () => {
 			<Features />
 			<Content {...heroOne} />
 			<Content {...heroTwo} />
-			{/* <Content {...heroThree} /> */}
 			<Carousel />
 		</>
 	);

@@ -1,10 +1,12 @@
 import React from 'react';
-import Form from '../components/Form/Form';
+import { Content } from '../components/Content/Content';
+import { heroThree } from '../data/HeroData';
 
 function SignUp() {
 	return (
 		<>
-			<Form />
+			<Content {...heroThree} />
+			{/* <Form /> */}
 		</>
 	);
 }

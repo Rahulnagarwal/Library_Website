@@ -1,13 +1,13 @@
 import React from 'react';
-import GlobalStyle from './globalStyles';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
+import GlobalStyle from './globalStyles';
 
 //Pages
-import Home from './pages/Home';
-import SignUp from './pages/SignupPage';
-import Pricing from './pages/PricingPage';
 import Footer from './components/Footer/Footer';
+import Home from './pages/Home';
+import Pricing from './pages/PricingPage';
+import SignUp from './pages/SignupPage';
 
 function App() {
 	return (
@@ -16,7 +16,7 @@ function App() {
 			<Navbar />
 			<Switch>
 				<Route path="/" exact component={Home} />
-				<Route path="/signup" exact component={SignUp} />
+				<Route path="/contact" exact component={SignUp} />
 				<Route path="/pricing" exact component={Pricing} />
 			</Switch>
 			<Footer />

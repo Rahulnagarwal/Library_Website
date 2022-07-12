@@ -12,7 +12,7 @@ const Hero = () => {
 					We provide the best and quite environment for study.
 				</HeroText>
 				<ButtonWrapper>
-					<Link to="signup">
+					<Link to="contact">
 						<Button>Get Started</Button>
 					</Link>
 					{/* <HeroButton>Find More</HeroButton> */}
