@@ -6,7 +6,7 @@ const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const featuresData = [
 	{
-		name: 'Specifically for girls',
+		name: 'Only for girls',
 		description: 'We offer the best safe and secure environments for girls.',
 		icon: iconStyle(FcBusinesswoman),
 		imgClass: 'one',
@@ -38,7 +38,7 @@ export const featuresData = [
 	{
 		name: 'Others',
 		description:
-			'All time electricity, RO Water, Bhaskar and The Hindu(digitally).',
+			'All time electricity, RO Water, Dainik Bhaskar and The Hindu(digitally).',
 		icon: iconStyle(FcPlus),
 		imgClass: 'six',
 	},

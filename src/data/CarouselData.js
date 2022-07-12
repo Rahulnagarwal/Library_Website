@@ -2,7 +2,7 @@ export const data = [
 	{
 		title: 'Thinking, Fast and Slow',
 		description:
-			'Our clients happily stay with our services for more several years now. See real reviews from our clients.',
+			'“Intelligence is not only the ability to reason; it is also the ability to find relevant material in memory and to deploy attention when needed.”',
 		image: './assets/thinkingFast.webp',
 		price: 'Price : ₹500'
 	},
