@@ -30,3 +30,17 @@ export const heroTwo = {
 	start: 'true',
 };
 
+export const heroThree = {
+	reverse: false,
+	inverse: false,
+	topLine: {
+		text: '',
+	},
+	headline: 'Contact Us? ',
+	description: ['', 'Name : Meena Nagarwal', 'Mobile No    :    8619962720', 'E-mail : anushkanagarwal72@gmail.com', '1 Day demo is free.'],
+	linkTo: '/more',
+	imgStart: 'start',
+	img: './assets/svg/mom.jpg',
+	start: 'true',
+};
+
