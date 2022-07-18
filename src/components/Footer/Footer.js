@@ -3,7 +3,7 @@ import { Row, Section } from '../../globalStyles';
 import {
 	FooterAddress,
 	FooterColumn,
-	FooterGrid, FooterLink, FooterLinkItems,
+	FooterGrid, FooterLinkItems,
 	FooterLinkTitle, FooterLogo, FooterRights,
 	FooterSocialIcon,
 	FooterWrapper, SocialIcon
@@ -39,10 +39,13 @@ function Footer() {
 					{footerData.map((footerItem, index) => (
 						<FooterLinkItems key={index}>
 							<FooterLinkTitle>{footerItem.title}</FooterLinkTitle>
-							{footerItem.links.map((link, linkIndex) => (
-								<FooterLink key={linkIndex} to="/">
-									{link}
-								</FooterLink>
+							{footerItem.links.map((link, i) => (
+								<li
+									onClick={() => window.open(link?.link, '_Self')}
+									key={i}
+								>
+									{link?.name}
+								</li>
 							))}
 						</FooterLinkItems>
 					))}
