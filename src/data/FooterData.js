@@ -32,19 +32,24 @@ export const footerSocialData = [
 
 export const footerData = [
 	{
-		title: 'Main',
-		links: ['Blog', 'FAQs', 'Support', 'About us'],
+		title: 'Motivational',
+		links: [{ name: "Sandeep Maheshawari", link: "https://www.youtube.com/c/SandeepSeminars" },
+		{ name: "Dr. Vivek Bindra", link: "https://www.youtube.com/c/MrVivekBindra" },
+		{ name: "Sadguru", link: "https://www.youtube.com/c/sadhguru" },
+		{ name: "Sonu Sharma", link: "https://www.youtube.com/c/SONUSHARMAMotivation" },],
 	},
 	{
-		title: 'Product',
-		links: ['Login', 'Personal', 'Business', 'Team'],
+		title: 'Educational',
+		links: [{ name: "Unacademy", link: "https://www.youtube.com/c/UnacademyLiveSSCExams" },
+		{ name: "Adda247", link: "https://www.youtube.com/c/Adda247live" },
+		{ name: "Khan Sir", link: "https://www.youtube.com/channel/UCatL-c6pmnjzEOHSyjn-sHA" },
+		{ name: "Drishti", link: "https://www.youtube.com/c/DrishtiIASvideos" }],
 	},
 	{
-		title: 'Press',
-		links: ['Logos', 'Events', 'Stories', 'Office'],
-	},
-	{
-		title: 'Legal',
-		links: ['GDPR', 'Privacy Policy', 'Terms of Service', 'Disclaimer'],
+		title: 'Books',
+		links: [{ name: "Seeken", link: "https://www.youtube.com/c/SeeKen" },
+		{ name: "Indian booktuber", link: "https://www.youtube.com/c/IndianBooktuber" },
+		{ name: "Kisan Chotaliya", link: "https://www.youtube.com/c/KishanChotaliya" },
+		{ name: "Helly", link: "https://www.youtube.com/c/HellyLove" },],
 	},
 ];
